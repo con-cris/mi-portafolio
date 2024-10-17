@@ -13,44 +13,57 @@
 </head>
 
 <body>
-    <!-- Menú -->
-    <header class="cabecera">
-        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
-        <h1 class="cabecera__titulo">Alura Latam</h1>
-        <nav class="navegacion">
-            <ul class="navegacion__lista">
-                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
-                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
-                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
-                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
-                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
-                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <section class="presentacion__principal">
+            <!-- Menú -->
+        <header class="cabecera">
+            <div class="cabecera__izquierda">
+                <img class="cabecera__logo" src="assets/mi_logo.png" alt="Logo">
+                <h1 class="cabecera__titulo">Cristian Conci</h1>
+            </div>
+            <nav class="navegacion">
+                <ul class="navegacion__lista">
+                    <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                    <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                    <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                    <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                    <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                    <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- Sección de Presentación -->
-    <section class="presentacion">
-        <img class="presentacion__foto" src="assets/profile.png" alt="Foto de perfil">
-        <div class="presentacion__contenedor">
-            <h2 class="presentacion__titulo">Hola, mi nombre es Cristian Conci y construyo páginas web</h2>
-            <p class="presentacion__subtitulo">Soy formada en... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
-            <ul class="redes">
-                <li class="redes__img"><a href="">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="">Currículo <img src="assets/arrow.png" alt="Flecha"></a></li>
-            </ul>
-        </div>
+        <!-- Sección de Presentación -->
+        <section class="presentacion">
+            <img class="presentacion__foto" src="assets/photo_profile_portfolio.png" alt="Foto de perfil">
+            <div class="presentacion__contenedor">
+                <h4 class="presentacion__nombre">Hola, mi nombre es Cristian </h4>
+                <h2 class="presentacion__titulo">Soy <span style="color: #5E3BEE;">desarrollador Frontend</span> y construyo páginas web</h2>
+                <p class="presentacion__subtitulo">Soy profesor de programación en nivel secundario y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+                <ul class="redes">
+                    <li class="redes__img">
+                        <a href="https://github.com/con-cris" target="_blank">Github <img src="assets/github_icon.png" alt="Flecha"></a>
+                    </li>
+                    <li class="redes__img">
+                        <a href="https://www.linkedin.com/in/cristianconci/" target="_blank">Linkedin <img src="assets/linkedin_icon.png" alt="Flecha"></a>
+                    </li>
+                    <li class="redes__img">
+                        <a href="https://www.instagram.com/cristian__cba/" target="_blank">Instagram <img src="assets/instagram_icon.png" alt="Flecha"></a>
+                    </li>
+                    <li class="redes__img">
+                        <a href="https://drive.google.com/file/d/16cfCflYBUk3xEz0_8NDH0ITEEt4Kjcdu/view?usp=sharing" target="_blank">Currículum <img src="assets/cv_icon.png" alt="Flecha"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </section>
+    
 
     <!-- Sección sobre mí -->
     <section class="sobre-mi" id="sobre-mi">
         <h2 class="sobre-mi__titulo">Sobre mí</h2>
-        <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
-        <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
-        <!-- Firma opcional -->
-        <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma">
+        <p class="sobre-mi__texto">Soy un desarrollador frontend en formación y educador comprometido. Desde 2012, he trabajado como profesor enseñando programación y tecnologías digitales, incluyendo electrónica básica, robótica e impresión 3D, siempre buscando inspirar a mis estudiantes a explorar y aprender.</p>
+        <p class="sobre-mi__texto">Mi interés por la tecnología me llevó a profundizar en el desarrollo web, donde aplico mis conocimientos en lenguajes como HTML, CSS, y JavaScript para crear soluciones funcionales y elegantes. Me motiva la idea de que la tecnología puede transformar cómo aprendemos e interactuamos, y busco contribuir a ese cambio a través de mi desarrollo profesional.</p>
+        
     </section>
 
     <!-- Sección de Habilidades -->
@@ -66,17 +79,14 @@
                 <p class="habilidades__nombre">JavaScript</p>
             </li>
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/php_icon.png" alt="PHP">
-                <p class="habilidades__nombre">PHP</p>
+                <img class="habilidades__icono" src="assets/logo_python.png" alt="PHP">
+                <p class="habilidades__nombre">Python</p>
             </li>
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/nodejs_icon.png" alt="Node.js">
-                <p class="habilidades__nombre">Node.js</p>
+                <img class="habilidades__icono" src="assets/sql_logo.png" alt="Node.js">
+                <p class="habilidades__nombre">SQL</p>
             </li>
-            <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/react_icon.png" alt="React">
-                <p class="habilidades__nombre">React</p>
-            </li>
+
             <li class="habilidades__elemento">
                 <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
                 <p class="habilidades__nombre">CSS</p>
@@ -89,24 +99,17 @@
         <h2 class="aficiones__titulo">Aficiones</h2>
         <ul class="aficiones__lista">
             <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/skate_icon.png" alt="Patinaje">
-                <p class="aficiones__nombre">Patinaje</p>
+                <img class="aficiones__icono" src="assets/swim_icon.png" alt="Patinaje">
+                <p class="aficiones__nombre">Natación</p>
             </li>
             <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/guitar_icon.png" alt="Tocar bajo">
-                <p class="aficiones__nombre">Tocar bajo</p>
+                <img class="aficiones__icono" src="assets/viajes_icon.png" alt="Tocar bajo">
+                <p class="aficiones__nombre">Viajes</p>
             </li>
+
             <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/headphones_icon.png" alt="Oír música">
-                <p class="aficiones__nombre">Oír música</p>
-            </li>
-            <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/tv_icon.png" alt="Ver series">
-                <p class="aficiones__nombre">Ver series</p>
-            </li>
-            <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/forkspoon_icon.png" alt="Cocinar">
-                <p class="aficiones__nombre">Cocinar</p>
+                <img class="aficiones__icono" src="assets/treeking_icon.png" alt="Cocinar">
+                <p class="aficiones__nombre">Treeking</p>
             </li>
             <li class="aficiones__elemento">
                 <img class="aficiones__icono" src="assets/camera_icon.png" alt="Tomar fotos">
@@ -120,51 +123,99 @@
         <h2 class="formacion__titulo">Formación académica</h2>
         <ul class="formacion__lista">
             <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/ufpr_logo.png" alt="UFPR">
+                <img class="formacion__icono" src="assets/utn_logo.png" alt="Logo UTN">
                 <div>
-                    <h3 class="formacion__nombre">Análisis de datos</h3>
-                    <p class="formacion__detalle">2018 - UFPR</p>
+                    <h3 class="formacion__nombre">Diplomatura en Nuevas Tecnologías</h3>
+                    <p class="formacion__detalle">2021 - UTN</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/utn_logo.png" alt="Logo UTN">
+                <div>
+                    <h3 class="formacion__nombre">Tecnicatura Universitario en Programación</h3>
+                    <p class="formacion__detalle">En curso - UTN</p>
                 </div>
             </li>
             <li class="formacion__elemento">
                 <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
                 <div>
-                    <h3 class="formacion__nombre">Formación en UX Design</h3>
-                    <p class="formacion__detalle">2019 - Alura</p>
+                    <h3 class="formacion__nombre">Formación FrontEnd</h3>
+                    <p class="formacion__detalle">En curso - Alura</p>
                 </div>
             </li>
-            <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/ufrj_logo.png" alt="UFRJ">
-                <div>
-                    <h3 class="formacion__nombre">Posgrado en diseño</h3>
-                    <p class="formacion__detalle">En curso - UFRJ</p>
-                </div>
-            </li>
+
         </ul>
     </section>
 
     <!-- Sección de Proyectos -->
     <section class="proyectos" id="proyectos">
-        <h2 class="proyectos__titulo">Experiencia Profesional</h2>
-        <div class="proyectos__contenedor">
-            <h3 class="proyectos__nombre">Título de la Experiencia</h3>
-            <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
-        </div>
-        <div class="proyectos__contenedor">
-            <h3 class="proyectos__nombre">Título de la Experiencia</h3>
-            <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
-        </div>
+        <h2 class="proyectos__titulo">Proyectos</h2>
+        
+        <ul class="proyectos__lista">
+            <li class="proyectos__contenedor">
+                <div class="proyecto__imagen">
+                    <img src="assets/portafolio.png" alt="Encriptador de texto">
+                </div>
+                <h3 class="proyectos__nombre">Portfolio</h3>
+                <p class="proyectos__descripcion">Challenge Oracle</p>
+                <div class="proyectos__botones">
+                    <a href="https://github.com/con-cris/portafolio.git" target="_blank" class="boton">Repositorio</a>
+                    <a href="https://portafolio-two-henna.vercel.app/index.html" target="_blank" class="boton">Ver demo</a>
+                </div>
+            </li>
+            <li class="proyectos__contenedor">
+                <div class="proyecto__imagen">
+                    <img src="assets/encriptador.png" alt="Encriptador de texto">
+                </div>
+                <h3 class="proyectos__nombre">Encriptador de texto</h3>
+                <p class="proyectos__descripcion">Challenge Oracle</p>
+                <div class="proyectos__botones">
+                    <a href="https://github.com/con-cris/encriptador.git" target="_blank" class="boton">Repositorio</a>
+                    <a href="https://encriptador-tau-nine.vercel.app/" target="_blank" class="boton">Ver demo</a>
+                </div>
+            </li>
+    
+            <li class="proyectos__contenedor">
+                <div class="proyecto__imagen">
+                    <img src="assets/juego.png" alt="Juego creado con HTML y JavaScript">
+                </div>
+                <h3 class="proyectos__nombre">Juego creado con HTML y JavaScript</h3>
+                <p class="proyectos__descripcion">Challenge Oracle</p>
+                <div class="proyectos__botones">
+                    <a href="https://github.com/con-cris/juego-secreto.git" target="_blank" class="boton">Repositorio</a>
+                    <a href="https://juego-secreto-sigma-three.vercel.app/" target="_blank" class="boton">Ver demo</a>
+                </div>
+            </li>
+    
+            <li class="proyectos__contenedor">
+                <div class="proyecto__imagen">
+                    <img src="assets/AluraPlay.png" alt="Proyecto AluraPlay">
+                </div>
+                <h3 class="proyectos__nombre">AluraPlay</h3>
+                <p class="proyectos__descripcion">Challenge Oracle</p>
+                <div class="proyectos__botones">
+                    <a href="https://github.com/con-cris/alura-play.git" target="_blank" class="boton">Repositorio</a>
+                    <a href="https://con-cris.github.io/alura-play/" target="_blank" class="boton">Ver demo</a>
+                </div>
+            </li>
+        </ul>
     </section>
-
     <!-- Sección de Contacto -->
     <section class="contacto" id="contacto">
         <h2 class="contacto__titulo">Contacto</h2>
-        <form class="contacto__formulario">
-            <input class="contacto__campo" type="text" placeholder="Nombre">
-            <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
-            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
-            <button class="contacto__boton" type="submit">Enviar</button>
-        </form>
+        <section class="contacto__contenedor">
+            <div class="contacto__imagen">
+                <img src="assets/contact_me.png" alt="Imagen de contacto">
+            </div>
+            <form class="contacto__formulario">
+                <p class="contacto__texto">¿Quieres contactarme?
+                    Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</p>
+                <input class="contacto__campo" type="text" placeholder="Nombre">
+                <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+                <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+                <button class="contacto__boton" type="submit">Enviar</button>
+            </form>
+        </section>
     </section>
 </body>
     <script src="script.js"></script>
